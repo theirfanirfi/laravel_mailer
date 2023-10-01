@@ -1,0 +1,19 @@
+{
+    "capacity": 30000,
+    "baseUrl": "127.0.0.1",
+    "serverId": "1",
+    "rabbitServer": "127.0.0.1",
+    "rabbitUsername": "test",
+    "rabbitPassword": "test",
+    "serverHashCode": "dfdfdsfdsf"
+}
+sh: free: command not found
+Sending Status 127.0.0.1/api/worker-servers-status
+Sending Status Output: 
+
+Fatal error: Uncaught ErrorException: stream_socket_client(): unable to connect to tcp://127.0.0.1:5672 (Connection refused) in /Users/naveen/Projects/Mailer/backend/XtaMailer/public/xtra_worker/XtraWorker/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php:155
+Stack trace:
+#0 /Users/naveen/Projects/Mailer/backend/XtaMailer/public/xtra_worker/XtraWorker/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php(157): PhpAmqpLib\Wire\IO\StreamIO->cleanup_error_handler()
+#1 /Users/naveen/Projects/Mailer/backend/XtaMailer/public/xtra_worker/XtraWorker/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php(208): PhpAmqpLib\Wire\IO\StreamIO->connect()
+#2 /Users/naveen/Projects/Mailer/backend/XtaMailer/public/xtra_worker/XtraWorker/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php(192): PhpAmqpLib\Connection\AbstractConnection->connect()
+#3 /Users/naveen/Projects/Mailer/backend/XtaMailer/public/xtra_worker/XtraWorker/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connecti in /Users/naveen/Projects/Mailer/backend/XtaMailer/public/xtra_worker/XtraWorker/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php on line 155

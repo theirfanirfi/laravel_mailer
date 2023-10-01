@@ -1,0 +1,9 @@
+{
+    "capacity": 30000,
+    "baseUrl": "127.0.0.1",
+    "serverId": "1",
+    "rabbitServer": "127.0.0.1",
+    "rabbitUsername": "dfdfdsfdsf",
+    "rabbitPassword": "\/",
+    "serverHashCode": "56cad1653cf4b0e8ccfe73c498832ddc"
+}Sending Status 127.0.0.1/api/worker-servers-statusSending Status Output: 
